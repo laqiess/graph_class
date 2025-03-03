@@ -570,7 +570,7 @@ void Graph<T>::ReadFromFile(const string& filename) {
 	}
 }
 
-// запись графа в файл
+// запись графа в файл.
 template <typename T>
 void Graph<T>::WriteToFile(const string& filename) const {
 	ofstream fout(filename);
